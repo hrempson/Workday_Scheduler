@@ -1,7 +1,7 @@
 //Global variables
 var saveButton 
 var currentTime = moment().hour();
-var currentTime = 11;
+// var currentTime = 11;
 var savedTasks = JSON.parse(localStorage.getItem("tasks")) || {};
 
 // Get stored tasks
@@ -23,7 +23,6 @@ $("#task-16").val(savedTasks.tasks16);
 
 // Print the current date to the top of the page
 $("#currentDay").append(moment().format("MMMM DD, YYYY"));
-
 // Color coding for past, present, future
 if (currentTime < 9) { 
     $(".status").addClass("future");
