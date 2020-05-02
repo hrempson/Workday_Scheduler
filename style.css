@@ -44,6 +44,18 @@ textarea{
   border-top: 1px solid white;;
 }
 
+.table td, .table th {
+  padding: 1.25rem;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+#timeCSS {
+  padding-left: 0px;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;
