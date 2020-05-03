@@ -1,5 +1,7 @@
 # Workday_Scheduler
 
+This project solved for the user story below. The project requirements are also listed in the acceptance criteria below.
+
 ### User Story
 
 ```
